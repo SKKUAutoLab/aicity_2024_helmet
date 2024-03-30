@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+*__pycache__*
+
+# PyCharm
+.idea
+
+
+# Text file
+*.txt
+
+# Image extension
+*.jpg
+*.png
+
+# Video extension
+*.mp4
+*.avi
+
+
+# PyTorch weights
+*.tar
+*.pth
+*.pt
+*.gz
+*.onnx
+
+
+# TensorRT weights
+*.engine
+*.wts
+
+# Compress file
+*.zip
+*.rar
+*.7zip
+*.so
+
+# Folder
+/models_zoo/
