@@ -62,12 +62,12 @@ After more than 2-3 hours, we get the result:
 1. Download & install Miniconda or Anaconda from https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
 
 
-2. Open new Terminal, create new conda environment named **aic24_track_5** and activate it with following commands:
+2. Open new Terminal, create new conda environment named **motorbike_helmet_violation** and activate it with following commands:
 
 ```shell
-conda create --name aic24_track_5 python=3.10
+conda create --name motorbike_helmet_violation python=3.10
 
-conda activate aic24_track_5
+conda activate motorbike_helmet_violation
 
 pip install -r requirements.txt
 ```
@@ -81,22 +81,19 @@ pip install -r requirements.txt
 
 Go to the website of AI-City Challenge to get the dataset.
 
-- https://www.aicitychallenge.org/2023-data-and-evaluation/
+- https://www.aicitychallenge.org/2024-data-and-evaluation/
 
 ##### b. Video data import
 
-Add video files to **Edge-TSS/src/aic24/track_5/data/**.
+Add video files to **data**.
    
 The program folder structure should be as following:
 
 ```
-Edge-TSS
-├── src
-│   ├──aic24
-│   │   ├── track_5
-│   │   │   └── data
-│   │   │       └── videos
-│   │   │  
+aicity_2024_helmet
+├── data
+│   ├──videos
+│   │   
 ...
 ```
 
@@ -110,19 +107,17 @@ Download weight from [Release](https://o365skku-my.sharepoint.com/:f:/g/personal
 
 The folder structure should be as following:
 ```
-ETSS-01-Edge-TSS
-├── src
-│   ├──aic24
-│   │   ├── track_5
-│   │   │   ├── models_zoo
-│   │   │   │   └──aic24 
-│   │   │   │       ├── kmeans_cluster
-│   │   │   │       ├── yolov8x_1536_1cls_track_5_24_v2
-│   │   │   │       ├── yolov8x_320_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_0
-│   │   │   │       ├── yolov8x_448_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_0
-│   │   │   │       ├── yolov8x_320_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_1
-│   │   │   │       ├── yolov8x_448_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_1
-│   │   │   │       └── yolov8x_512_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_1
+
+aicity_2024_helmet
+├── models_zoo
+│   ├──aic24 
+│   │   ├── kmeans_cluster
+│   │   ├── yolov8x_1536_1cls_track_5_24_v2
+│   │   ├── yolov8x_320_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_0
+│   │   ├── yolov8x_448_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_0
+│   │   ├── yolov8x_320_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_1
+│   │   ├── yolov8x_448_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_1
+│   │   └── yolov8x_512_9cls_track_5_24_crop_train_equal_val_v4_videos_gr_1
 ```
 
 ##### b. Run inference
@@ -130,15 +125,15 @@ ETSS-01-Edge-TSS
 And the running script to get the result
 
 ```shell
-cd Edge-TSS/src/aic24/track_5/
+cd aicity_2024_helmet
 
-bash script/run_track_5_docker.sh 
+bash run_track_5_docker.sh 
 ```
 
 ##### c. Get the result
 After more than 2-3 hours, we get the result:
 ```
-Edge-TSS/src/aic24/track_5/data/output_aic24/final_result.txt
+aicity_2024_helmet/data/output_aic24/final_result.txt
 ```
 
 ---
