@@ -8,8 +8,8 @@ export DIR_TSS=$DIR_CURRENT                         # .
 export DIR_SOURCE=$DIR_TSS"/motordriver"            # ./motordriver
 
 # Add data dir
-export DIR_DATA="/media/sugarubuntu/DataSKKU3/3_Dataset/AI_City_Challenge/2024/Track_5/aicity2024_track5_test"
-export DIR_RESULT="/media/sugarubuntu/DataSKKU3/3_Dataset/AI_City_Challenge/2024/Track_5/aicity2024_track5_test"
+export DIR_DATA="data/helmet"
+export DIR_RESULT="data/helmet"
 
 # Add python path
 export PYTHONPATH=$PYTHONPATH:$PWD                              # .
@@ -46,7 +46,7 @@ python main.py  \
     --identification  \
     --heuristic  \
     --run_image  \
-    --config $DIR_TSS"/configs/aic24.yaml"
+    --config $DIR_TSS"/configs/helmet.yaml"
 
 # NOTE: WRITE FINAL RESULT
 echo "*****************"
@@ -54,7 +54,7 @@ echo "WRITE FINAL RESULT"
 echo "*****************"
 python main.py  \
     --write_final  \
-    --config $DIR_TSS"/configs/aic24.yaml"
+    --config $DIR_TSS"/configs/helmet.yaml"
 
 
 echo "###########################"
