@@ -1,6 +1,3 @@
-# AI City Challenge 2024 - Track 5
-## Team ID - #5
-
 ## Automation Lab, Sungkyunkwan University
 
 # A. Run from Docker
