@@ -131,7 +131,7 @@ bash run_track_5_docker.sh
 ##### c. Get the result
 After more than 2-3 hours, we get the result:
 ```
-aicity_2024_helmet/data/output_aic24/final_result.txt
+aicity_2024_helmet/data/output_helmet/final_result.txt
 ```
 
 ---
