@@ -89,7 +89,8 @@ The program folder structure should be as following:
 ```
 aicity_2024_helmet
 ├── data
-│   ├──videos
+│   ├──helmet
+│   │   ├──videos
 │   │   
 ...
 ```
@@ -100,7 +101,7 @@ aicity_2024_helmet
 
 ##### a. Download weight 
 
-Download weight from [Release](https://o365skku-my.sharepoint.com/:f:/g/personal/duongtran_o365_skku_edu/Eo2nfe_g62VNocpi_6mOIjsBFPbXaDiVat1C7vaJ6HLJ_g?e=e5tjcB) then put it into **Edge-TSS/src/aic24/track_5/models_zoo**.
+Download weight from [Release](https://1drv.ms/u/s!Anfa0di4JZJfkxsCCFGv6a9G_Tyg?e=VkgXnF) then put it into **aicity_2024_helmet/model_zoo/aic24/models_zoo**.
 
 The folder structure should be as following:
 ```
