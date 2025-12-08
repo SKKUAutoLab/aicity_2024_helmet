@@ -147,3 +147,21 @@ Download dataset for Detector from [link](https://o365skku-my.sharepoint.com/:f:
 ##### b. Dataset for the Identifier
 
 Download dataset for Identifier from [link](https://o365skku-my.sharepoint.com/:f:/g/personal/duongtran_o365_skku_edu/Eo2nfe_g62VNocpi_6mOIjsBFPbXaDiVat1C7vaJ6HLJ_g?e=e5tjcB).
+
+# D. Citation
+
+```bibtex
+@inproceedings{tran_robust_2023,
+	title = {Robust Automatic Motorcycle Helmet Violation Detection for an Intelligent Transportation System},
+	copyright = {https://doi.org/10.15223/policy-029},
+	isbn = {979-8-3503-0249-3},
+	url = {https://ieeexplore.ieee.org/document/10208752/},
+	doi = {10.1109/CVPRW59228.2023.00563},
+	booktitle = {2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+	publisher = {IEEE},
+	author = {Tran, Duong Nguyen-Ngoc and Hoang Pham, Long and Jeon, Hyung-Joon and Nguyen, Huy-Hung and Jeon, Hyung-Min and Tran, Tai Huu-Phuong and Jeon, Jae Wook},
+	month = jun,
+	year = {2023},
+	pages = {5341--5349},
+}
+```
